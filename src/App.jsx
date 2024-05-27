@@ -7,8 +7,8 @@ import { TodoProvider } from "./context/TodoProvider"; // Correctly import TodoP
 function App() {
   return (
     <TodoProvider> {/* Use TodoProvider here */}
-      <div className="max-w-lg mx-auto mt-8"> {/* Move className to a div inside */}
-        <h1 className="text-2xl text-blue-600 font-bold text-center mb-4">Todo List</h1>
+      <div className="max-w-lg mx-auto mt-8 mi_container"> {/* Move className to a div inside */}
+        <h1 className="text-2xl text-blue-600 font-bold text-center mb-4">TODO-LIST-APP</h1>
         <TodoForm />
         <TodoFilter />
         <TodoList />

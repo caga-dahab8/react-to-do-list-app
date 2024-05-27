@@ -18,8 +18,8 @@ const TodoForm = () => {
 
 
   return (
-    <form onSubmit={handleSubmit} className="flex">
-      <input ref={inputRef} type="text" placeholder="Add a new todo" className="px-4 pr-4 border border-gray-300 rounded-lg mr-2 input"/>
+    <form onSubmit={handleSubmit} className="flex form">
+      <input ref={inputRef} type="text" placeholder="Add a new todo" className="px-4 pr-4 border border-gray-300 rounded-lg mr-2" style={{width:"100%"}}/>
       <button type="submit" className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">add</button>
     </form>
   );

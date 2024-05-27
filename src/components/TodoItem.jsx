@@ -42,7 +42,7 @@ const TodoItem = ({ todo }) => {
         </span>
       )}
       <div className="flex items-center">
-        <button onClick={handleEdit} className="text-yellow-500 ml-2">
+        <button onClick={handleEdit} className="text-green-500 ml-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
